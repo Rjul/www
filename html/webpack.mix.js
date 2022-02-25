@@ -15,6 +15,3 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
-
-mix.js("vendor/orchid/platform/public/js", "public/resources/orchid/js")
-    .sass("vendor/orchid/platform/public/css", "public/resources/orchid/css");
