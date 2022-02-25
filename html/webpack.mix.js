@@ -17,4 +17,4 @@ mix.js('resources/js/app.js', 'public/js')
     ]);
 
 mix.js("vendor/orchid/platform/public/js", "public/resources/orchid/js")
-    .postCss("/vendor/orchid/platform/public/css", "public/resources/orchid/css");
+    .postCss("vendor/orchid/platform/public/css", "public/resources/orchid/css");
