@@ -15,3 +15,12 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+
+mix
+    .js("vendor/orchid/platform/public/js/manifest.js", "public/resources/orchid/js")
+    .js("vendor/orchid/platform/public/js/manifest.js.map", "public/resources/orchid/js")
+    .js("vendor/orchid/platform/public/js/orchid.js", "public/resources/orchid/js")
+    .js("vendor/orchid/platform/public/js/orchid.js.map", "public/resources/orchid/js")
+    .js("vendor/orchid/platform/public/js/vendor.js", "public/resources/orchid/js")
+    .js("vendor/orchid/platform/public/js/vendor.js.map", "public/resources/orchid/js")
+    .postCss("vendor/orchid/platform/public/css/orchid.css", "public/resources/orchid/css");
