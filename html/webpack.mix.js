@@ -17,10 +17,10 @@ mix.js('resources/js/app.js', 'public/js')
     ]);
 
 mix
-    .js("vendor/orchid/platform/public/js/manifest.js", "public/resources/orchid/js")
-    .js("vendor/orchid/platform/public/js/manifest.js.map", "public/resources/orchid/js")
-    .js("vendor/orchid/platform/public/js/orchid.js", "public/resources/orchid/js")
-    .js("vendor/orchid/platform/public/js/orchid.js.map", "public/resources/orchid/js")
-    .js("vendor/orchid/platform/public/js/vendor.js", "public/resources/orchid/js")
-    .js("vendor/orchid/platform/public/js/vendor.js.map", "public/resources/orchid/js")
-    .postCss("vendor/orchid/platform/public/css/orchid.css", "public/resources/orchid/css");
+    .copy("vendor/orchid/platform/public/js/manifest.js", "public/resources/orchid/js")
+    .copy("vendor/orchid/platform/public/js/manifest.js.map", "public/resources/orchid/js")
+    .copy("vendor/orchid/platform/public/js/orchid.js", "public/resources/orchid/js")
+    .copy("vendor/orchid/platform/public/js/orchid.js.map", "public/resources/orchid/js")
+    .copy("vendor/orchid/platform/public/js/vendor.js", "public/resources/orchid/js")
+    .copy("vendor/orchid/platform/public/js/vendor.js.map", "public/resources/orchid/js")
+    .copy("vendor/orchid/platform/public/css/orchid.css", "public/resources/orchid/css");
